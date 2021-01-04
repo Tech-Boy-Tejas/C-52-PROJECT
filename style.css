@@ -1,0 +1,67 @@
+h1 {
+    color:red;
+    text-align: center;
+    background-color: yellow;
+}
+p {
+    color:blue;
+}
+li {
+    color:orange;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+    
+}
+
+.bodyimg{
+    text-align: center;
+    font:italic small-caps bold 12px/1.5 Helvetica, Arial, sans-serif;
+    background-color: cyan;
+    margin-left:200px;
+    margin-right:200px;
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+    background-color: red;
+    border-color: chartreuse;
+}
+.origami{
+    opacity:1.0;
+    border-radius: 18px;
+    background-color: #ffffff;
+
+    width: 400px;
+    font-family: fantasy;
+    position:relative;
+}
+
+.origami:hover{
+    opacity:0.7;
+    transform: scale(1.1);
+}
+body{
+    margin:0px;
+    background-color: #f7f2f2;
+}
+
+a:link{
+    color:cyan;
+    text-decoration: none;
+}
+a:visited{
+    color:magenta;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
